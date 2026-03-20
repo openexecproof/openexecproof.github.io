@@ -1,19 +1,25 @@
 # openexecproof.github.io
 
-Public entrypoint for OpenExecProof.
+Public entrypoint for Open Execution Proof.
+
+## Access
+
+https://openexecproof.github.io/
+
+This entrypoint redirects to the public verifier:
+
+https://openexecproof.github.io/verify/
 
 ## Purpose
 
-This repository exists to provide the root public entry surface:
+The purpose of this repository is to provide a stable public entry surface.
 
-`https://openexecproof.github.io/`
+It does not contain:
 
-It redirects users to the public verifier:
-
-`https://openexecproof.github.io/verify/`
+- verification logic
+- execution runtime
+- proof generation
 
 ## Scope
 
-This repository is not the verifier logic and not a producer runtime.
-
-It is the public entrypoint only.
+This is the entrypoint only.
